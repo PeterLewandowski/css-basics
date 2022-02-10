@@ -1,0 +1,61 @@
+h1 {
+    color: brown;
+    background-color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  #second-heading {
+    background-color: peru;
+  }
+
+  .third-heading {
+    background-color: darksalmon;
+  }
+
+  #id-3 {
+    background-color: darkviolet;
+    color: white;
+  }
+
+  header {
+    background-color: silver;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  .parent-div {
+    display: flex;
+    align-items: center;
+    background-color: tomato;
+    height: 600px;
+    justify-content: center;
+  }
+
+  .child-div {
+      display: flex;
+    background-color: wheat;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    justify-content: center
+
+    border-style: solid;
+    border: 1px solid rgb(0, 33, 165);
+    border-radius: 10px;
+  }
+
+  .child-div img {
+    max-height: 150px;
+    max-width: 150px;
+  }
